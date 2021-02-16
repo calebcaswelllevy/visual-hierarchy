@@ -226,6 +226,18 @@ Email newsletter
     width: 70%;
     top:25%;
     left:15%;
+}
 
+/* ##############
 
+Font styling
+
+############### */
+
+.yanone {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.playfair {
+    font-family:'Playfair Display', serif;
 }
