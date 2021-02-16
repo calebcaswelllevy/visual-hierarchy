@@ -37,6 +37,7 @@ body {
     background-color:#000;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:10px;
+    grid-auto-rows: auto;
 }
 
 .col-1-2 {
@@ -155,4 +156,76 @@ header ul li{
     left:25%;
     width:60%;
     height:25%;
+}
+
+/*########################
+
+See all button 
+
+########################*/
+
+#see-all {
+    width:30%;
+    margin:0 auto;
+    text-align:center;
+}
+
+#see-all div {
+    padding:5px;
+}
+
+/*###############
+
+Latest posts 
+
+###############*/
+
+.latest {
+    padding:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+}
+.latest-posts {
+    height:200px;
+}
+
+/* ###############
+
+Email newsletter
+
+############### */
+
+#newsletter {
+    margin:30px;
+    width:70%;
+    position:relative;
+}
+
+#circle {
+    position:absolute;
+    height:90px;
+    width:90px;
+    left:40%;
+    top:-5%;
+    border-radius: 50%;
+    background-color:#eee
+}
+
+#newsletter .input {
+    position:absolute;
+    height:35px;
+    width:70%;
+    top:70%;
+    left: 15%;
+}
+
+#filler {
+    position:absolute;
+    height:30%;
+    width: 70%;
+    top:25%;
+    left:15%;
+
+
 }
